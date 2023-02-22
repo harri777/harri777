@@ -1,0 +1,22 @@
+{
+  "name": "hawkz94",
+  "version": "1.0.0",
+  "description": "Hawkz94 Readme",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hawkz94/hawkz94.git"
+  },
+  "author": "Harrisson Biaggio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hawkz94/hawkz94/issues"
+  },
+  "homepage": "https://github.com/hawkz94/hawkz94#readme",
+  "dependencies": {
+    "mustache": "^4.2.0"
+  }
+}
