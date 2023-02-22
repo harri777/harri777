@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 */3 * * *'
+    - cron: '0 */6 * * *'
 
 jobs:
   build:
@@ -14,20 +14,30 @@ jobs:
     steps:
       - name: Checkout current repository to MAIN branch
         uses: actions/checkout@v1
+
       - name: Setup NodeJs 13.x
         uses: actions/setup-node@v1
         with:
           node-version: '18.x'
+
       - name: Cache dependencies and build outputs to improve workflow execution time.
         uses: actions/cache@v1
         with:
           path: node_modules
           key: ${{ runner.os }}-js-${{ hashFiles('package-lock.json') }}
+
       - name: Install dependencies
         run: npm install
+
       - name: Generate README file
         run: node .
+
       - name: Commit and Push new README.md to the repository
-        uses: mikeal/publish-to-github-action@master
+        uses: stefanzweifel/git-auto-commit-action@v4
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        with:
+          commit_user_name: Github Actions
+          commit_message: '[GH ACTIONS] Update readme'
+          push_options: --force
+          branch: main
