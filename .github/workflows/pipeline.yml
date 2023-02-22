@@ -10,12 +10,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout current repository to MAIN branch
-        uses: actions/checkout@v1
+        uses: actions/checkout@v3
 
-      - name: Setup NodeJs 13.x
+      - name: Setup NodeJs 18.x
         uses: actions/setup-node@v1
         with:
           node-version: '18.x'
@@ -32,12 +34,13 @@ jobs:
       - name: Generate README file
         run: node .
 
+      - name: Setup git config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
       - name: Commit and Push new README.md to the repository
-        uses: stefanzweifel/git-auto-commit-action@v4
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        with:
-          commit_user_name: Github Actions
-          commit_message: '[GH ACTIONS] Update readme'
-          push_options: --force
-          branch: main
+        run: |
+          git add .
+          git commit -m "[GH ACTIONS] Update readme"
+          git push origin main
