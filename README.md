@@ -76,5 +76,5 @@
 </p>
 
 ------------
-<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: domingo, 14 de maio às 22:02 BRT<br />
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: segunda-feira, 15 de maio às 03:15 BRT<br />
 
