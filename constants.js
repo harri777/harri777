@@ -98,6 +98,10 @@ const SKILLS = [
   {
     name: "ElasticSearch",
     logo: "https://img.shields.io/badge/-ElasticSearch-506ba9?style=flat-square&logo=elastic&logoColor=white"
+  },
+  {
+    name: "Blockchain",
+    logo: "https://img.shields.io/badge/-Blockchain-506ba9?style=flat-square&logo=blockchain&logoColor=white"
   }
 ];
 
