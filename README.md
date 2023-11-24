@@ -26,6 +26,7 @@
 <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
 <img alt="Cloudflare" src="https://img.shields.io/badge/-Cloudflare-F9A03C?style=flat-square&logo=cloudflare&logoColor=white" />
 <img alt="ElasticSearch" src="https://img.shields.io/badge/-ElasticSearch-506ba9?style=flat-square&logo=elastic&logoColor=white" />
+<img alt="Blockchain" src="https://img.shields.io/badge/-Blockchain-506ba9?style=flat-square&logo=blockchain&logoColor=white" />
 </p>
 <h3>Open source projects</h3>
 <table>
@@ -72,9 +73,10 @@
 </table>
 
 <h3>Where to find me</h3>
-<p><a href="https://github.com/hawkz94" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> <a href="https://www.linkedin.com/in/harrisson-biaggio/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="https://medium.com/@harrissonbiaggio" target="_blank"><img alt="Medium" src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" /></a>
+<p>
+  <a href="https://www.linkedin.com/in/harrisson-biaggio/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </p>
 
 ------------
-<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: sexta-feira, 24 de novembro às 09:04 BRT<br />
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: sexta-feira, 24 de novembro às 11:25 BRT<br />
 
