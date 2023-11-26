@@ -64,10 +64,10 @@
         <td><img alt="Issues" src="https://img.shields.io/github/issues/hawkz94/microfrontend-monorepo-k8s-istio?style=flat-square&labelColor=343b41"/></td>
       </tr>
 <tr>
-        <td><a href="https://github.com/hawkz94/crazyScan"><b>Crazy Scan - Port Scan</b></a></td>
-        <td><img alt="Stars" src="https://img.shields.io/github/stars/hawkz94/crazyScan?style=flat-square&labelColor=343b41"/></td>
-        <td><img alt="Forks" src="https://img.shields.io/github/forks/hawkz94/crazyScan?style=flat-square&labelColor=343b41"/></td>
-        <td><img alt="Issues" src="https://img.shields.io/github/issues/hawkz94/crazyScan?style=flat-square&labelColor=343b41"/></td>
+        <td><a href="https://github.com/hawkz94/blockchain-core-nodejs"><b>Simple Blockchain Core</b></a></td>
+        <td><img alt="Stars" src="https://img.shields.io/github/stars/hawkz94/blockchain-core-nodejs?style=flat-square&labelColor=343b41"/></td>
+        <td><img alt="Forks" src="https://img.shields.io/github/forks/hawkz94/blockchain-core-nodejs?style=flat-square&labelColor=343b41"/></td>
+        <td><img alt="Issues" src="https://img.shields.io/github/issues/hawkz94/blockchain-core-nodejs?style=flat-square&labelColor=343b41"/></td>
       </tr>
   </tbody>
 </table>
@@ -75,8 +75,9 @@
 <h3>Where to find me</h3>
 <p>
   <a href="https://www.linkedin.com/in/harrisson-biaggio/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/harrisson-biaggio/recent-activity/articles/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/Articles-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </p>
 
 ------------
-<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: sábado, 25 de novembro às 21:13 BRT<br />
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: sábado, 25 de novembro às 22:14 BRT<br />
 
