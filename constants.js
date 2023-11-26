@@ -123,8 +123,8 @@ const PROJECTS = [
     slug: "microfrontend-monorepo-k8s-istio",
   },
   {
-    name: "Crazy Scan - Port Scan",
-    slug: "crazyScan",
+    name: "Simple Blockchain Core",
+    slug: "blockchain-core-nodejs",
   }
 ]
 
